@@ -53,7 +53,7 @@ func (d *DiskAPI) Init(c HTTPClient, authToken string, location string) error {
 	d.AuthToken = authToken
 	d.Location = location
 	d.ApiEndpoint = fmt.Sprintf(
-		"https://api.idcloudhost.com/v1/%s/user-resource/vm/storage",
+		"https://console.idcloudhost.com/v1/%s/user-resource/vm/storage",
 		d.Location,
 	)
 	r, err := http.Get(d.ApiEndpoint)

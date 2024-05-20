@@ -43,7 +43,7 @@ type UserProfileData struct {
 func (u *UserAPI) Init(c HTTPClient, authToken string, location string) error {
 	u.c = c
 	u.AuthToken = authToken
-	u.ApiEndpoint = "https://api.idcloudhost.com/v1/user-resource/user"
+	u.ApiEndpoint = "https://console.idcloudhost.com/v1/user-resource/user"
 	return nil
 }
 

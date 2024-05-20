@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 	"errors"
-	"github.com/bapung/idcloudhost-go-client-library/idcloudhost/disk"
+	"github.com/man20820/idcloudhost-go-client-library/idcloudhost/disk"
 )
 
 type HTTPClient interface {
@@ -74,7 +74,7 @@ func (vm *VirtualMachineAPI) Init(c HTTPClient, authToken string, location strin
 	vm.AuthToken = authToken
 	vm.Location = location
 	vm.ApiEndpoint = fmt.Sprintf(
-		"https://api.idcloudhost.com/v1/%s/user-resource/vm",
+		"https://console.idcloudhost.com/v1/%s/user-resource/vm",
 		vm.Location,
 	)
 	r, err := http.Get(vm.ApiEndpoint)

@@ -40,7 +40,7 @@ func (ip *FloatingIPAPI) Init(c HTTPClient, authToken string, location string) e
 	ip.AuthToken = authToken
 	ip.Location = location
 	ip.ApiEndpoint = fmt.Sprintf(
-		"https://api.idcloudhost.com/v1/%s/network/ip_addresses",
+		"https://console.idcloudhost.com/v1/%s/network/ip_addresses",
 		ip.Location,
 	)
 	r, err := http.Get(ip.ApiEndpoint)
