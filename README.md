@@ -62,5 +62,3 @@ if err != nil {
 ### Disclaimer
 For now, I am developing this client library as prerequisites to my other project: [Terraform Provider for idCloudHost](https://github.com/man20820/terraform-provider-idcloudhost). The reason is I want to codify my project in IdCloudHost (afaik the cheapest Cloud VPS in Indonesia right now, which fit my needs). 
 This is a fun project and not guaranted for stability, if you found bugs or need to add feature feel free to create issue or PR.
-
-Test

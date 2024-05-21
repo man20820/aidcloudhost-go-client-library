@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/man20820/aidcloudhost-go-client-library/idcloudhost/disk"
+	"github.com/man20820/bidcloudhost-go-client-library/idcloudhost/disk"
 )
 
 type HTTPClient interface {
