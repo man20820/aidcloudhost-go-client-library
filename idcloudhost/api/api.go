@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/man20820/idcloudhost-go-client-library/idcloudhost/disk"
-	"github.com/man20820/idcloudhost-go-client-library/idcloudhost/floatingip"
-	"github.com/man20820/idcloudhost-go-client-library/idcloudhost/vm"
+	"github.com/man20820/aidcloudhost-go-client-library/idcloudhost/disk"
+	"github.com/man20820/aidcloudhost-go-client-library/idcloudhost/floatingip"
+	"github.com/man20820/aidcloudhost-go-client-library/idcloudhost/vm"
 )
 
 type APIClient struct {

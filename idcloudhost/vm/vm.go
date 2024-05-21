@@ -2,6 +2,7 @@ package vm
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -9,8 +10,8 @@ import (
 	"net/url"
 	"strconv"
 	"strings"
-	"errors"
-	"github.com/man20820/idcloudhost-go-client-library/idcloudhost/disk"
+
+	"github.com/man20820/aidcloudhost-go-client-library/idcloudhost/disk"
 )
 
 type HTTPClient interface {
